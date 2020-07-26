@@ -10,6 +10,18 @@ function makeCol() {
   document.querySelector('body').classList.add('flex-direction-col');
 }
 
+// WRAP
+
+function makeWrap() {
+  document.querySelector('body').classList.add('wrap');
+  document.querySelector('body').classList.remove('no-wrap');
+}
+
+function makeNoWrap() {
+  document.querySelector('body').classList.remove('wrap');
+  document.querySelector('body').classList.add('no-wrap');
+}
+
 // JUSTIFY CONTENT
 
 function makeFlexStart() {
@@ -47,6 +59,7 @@ function makeSpaceBetween() {
   document.querySelector('body').classList.remove('space-around');
   document.querySelector('body').classList.remove('space-evenly');
 }
+
 function makeSpaceAround() {
   document.querySelector('body').classList.remove('flex-start');
   document.querySelector('body').classList.remove('flex-end');
@@ -55,6 +68,7 @@ function makeSpaceAround() {
   document.querySelector('body').classList.add('space-around');
   document.querySelector('body').classList.remove('space-evenly');
 }
+
 function makeSpaceEvenly() {
   document.querySelector('body').classList.remon('flex-start');
   document.querySelector('body').classList.remove('flex-end');
@@ -67,6 +81,9 @@ function makeSpaceEvenly() {
 
 document.querySelector('.flex-direction-row-button').addEventListener('click', makeRow);
 document.querySelector('.flex-direction-col-button').addEventListener('click', makeCol);
+
+document.querySelector('.wrap-button').addEventListener('click', makeWrap);
+document.querySelector('.no-wrap-button').addEventListener('click', makeNoWrap);
 
 document.querySelector('.flex-start-button').addEventListener('click', makeFlexStart);
 document.querySelector('.flex-end-button').addEventListener('click', makeFlexEnd);
