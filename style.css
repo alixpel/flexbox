@@ -1,0 +1,43 @@
+/* FLEXBOX */
+body {
+  background-color: gold;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+button {
+  font-size: 1.5rem;
+  max-width: 15vw;
+}
