@@ -3,7 +3,9 @@ body {
   align-items: flex-start;
   background-color: #FAFFD8;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  padding-left: -0.1rem;
+  padding-right: -0.1rem;
   padding-top: 2rem;
 }
 
@@ -150,8 +152,9 @@ body {
 button {
   border: 1px solid white;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1rem;
+  margin: 0.1rem;
   min-height: 8vh;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 0.5rem;
 }
