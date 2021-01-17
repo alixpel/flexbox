@@ -1,9 +1,9 @@
 /* FLEXBOX */
-body {
+.container {
   align-items: flex-start;
   background-color: #FAFFD8;
   display: flex;
-  min-height: 100vh;
+  height: 94vh;
   padding-top: 2rem;
 }
 
