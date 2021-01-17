@@ -1,5 +1,5 @@
 /* FLEXBOX */
-.container {
+body {
   align-items: flex-start;
   background-color: #FAFFD8;
   display: flex;
