@@ -1,3 +1,9 @@
+/* RESET */
+html, body {
+  margin: 0;
+	padding: 0;
+}
+
 /* FLEXBOX */
 body {
   align-items: flex-start;
